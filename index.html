@@ -6,9 +6,9 @@
     <title>Maintenance | 47k - Professional IT Solutions</title>
     <style>
         body {
-            background-color: #ffffff;
-            color: #000000;
-            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,26 +17,47 @@
         }
         .container {
             text-align: center;
-            border: 1px solid #000000;
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 600px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 600px; /* Erhöht, um mehr Platz für den Text zu bieten */
+            width: 100%;
+            position: relative;
         }
         h1 {
             font-size: 2em;
             margin-bottom: 20px;
+            color: #000000;
         }
         p {
             font-size: 1.2em;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            white-space: nowrap; /* Verhindert den Zeilenumbruch */
+        }
+        p strong {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .footer {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .underline {
+            width: 50px;
+            height: 5px;
+            background: #FFA500;
+            border-radius: 5px;
+            margin: 20px auto 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>47k - Professional IT Solutions</h1>
-        <p>This page is currently under maintenance until 25th of July</p>
+        <p>This page is currently under maintenance until <strong><u>25th of July</u></strong></p>
+        <div class="footer">We appreciate your patience. Please check back later.</div>
+        <div class="underline"></div>
     </div>
 </body>
 </html>
